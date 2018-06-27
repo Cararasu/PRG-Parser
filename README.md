@@ -1,6 +1,6 @@
 # PRG-Parser
 
-Have you ever wanted to parse Commodore 64 *.prg files into readable BASIC? No, anyhow here you have a python parser, which does exactly this. Just call it like this and be impressed by the beauty that is BASIC:
+Have you ever wanted to parse Commodore 64 *.prg files into readable BASIC? No, anyhow here is a python parser, which does exactly that. Just call it like this and be impressed by the beauty that is BASIC:
 ```basic
 > ./PRGParser.py ./whyudothis.prg
 1 REM ===================================
