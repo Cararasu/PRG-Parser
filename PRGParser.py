@@ -83,8 +83,5 @@ if __name__ == "__main__":
 	for file in sys.argv[1:]:
 		res = parse_file(file)
 		print("Program mapped at position 0x%x" % res[0])
-		for i in range(5):
-			print(res[1][i])
-		exit()
 		for line in res[1]:
 			print(line)
